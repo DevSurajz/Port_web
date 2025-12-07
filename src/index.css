@@ -1,0 +1,26 @@
+/* ✅ RESET VITE DEMO STYLES FOR FULLSCREEN APP */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* REMOVE flex from body */
+body {
+  min-width: 320px;
+  background: #000;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Optional: keep default button styles safe */
+button {
+  font-family: inherit;
+}
