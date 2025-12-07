@@ -28,6 +28,7 @@ body { margin: 0; }
   padding: 8px 14px;
   border-radius: 20px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .container {
