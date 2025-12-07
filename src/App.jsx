@@ -89,6 +89,7 @@ body { margin: 0; }
   cursor: pointer;
   text-decoration: none;
   color: inherit;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .social:hover {
