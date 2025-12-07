@@ -86,6 +86,9 @@ body { margin: 0; }
   align-items: center;
   justify-content: center;
   transition: .3s;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .social:hover {
@@ -114,6 +117,7 @@ body { margin: 0; }
   background: linear-gradient(145deg, rgba(255,255,255,.08), rgba(255,255,255,.02));
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);
   transition: .4s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .link:hover {
@@ -129,6 +133,11 @@ body { margin: 0; }
   display: flex;
   align-items: center;
   gap: 14px;
+}
+
+.link:active {
+  transform: scale(0.97);
+  opacity: 0.85;
 }
 
 .icon-box {
