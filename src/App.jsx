@@ -81,7 +81,7 @@ body { margin: 0; }
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  border: 1px solid rgba(255,255,255,.25);
+  border: 1px solid rgba(249, 240, 240, 0.25);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,7 +142,7 @@ body { margin: 0; }
 }
 
 .app.light .icon-box {
-  background: rgba(255,255,255,.6);
+  background: rgba(230, 216, 216, 0.6);
 }
 
 .icon {
@@ -263,12 +263,57 @@ export default function App() {
           </div>
 
           <div className="socials">
-            <div className="social"><GitHub /></div>
-            <div className="social"><YouTube /></div>
-            <div className="social"><Instagram /></div>
-            <div className="social"><LinkedIn /></div>
-            <div className="social"><Globe /></div>
-          </div>
+
+  <a
+    className="social"
+    href="https://github.com/DevSurajz"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <GitHub />
+  </a>
+
+  <a
+    className="social"
+    href="https://www.youtube.com/@TimeChronicles5"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <YouTube />
+  </a>
+
+  <a
+    className="social"
+    href="https://www.instagram.com/suraj_indoriya_/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Instagram />
+  </a>
+
+  <a
+    className="social"
+    href="https://www.linkedin.com/in/suraj-sharma-74b160304/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <LinkedIn />
+  </a>
+
+<a
+    className="social"
+    href="#"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Globe/>
+  </a>
+
+
+</div>
+
+            
+
 
           <div className="links">
             {/* PRIMARY LINKS – replace # with your real URLs */}
