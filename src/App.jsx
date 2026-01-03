@@ -345,7 +345,7 @@ export default function App() {
             <a className="link" href="https://devvelox.vercel.app/">
               <div className="link-left">
                 <div className="icon-box"><Globe /></div>
-                Website
+                Visit My Website →
               </div>
             </a>
 
