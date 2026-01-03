@@ -213,6 +213,21 @@ const Spotify = () => (
     <path d="M12 2C6.5 2 2 6.4 2 12s4.5 10 10 10 10-4.4 10-10S17.5 2 12 2zm4.6 14.5c-.2.3-.6.4-1 .2-2.7-1.6-6.2-2-10.3-1.2-.4.1-.8-.2-.9-.6-.1-.4.2-.8.6-.9 4.5-.8 8.3-.4 11.3 1.4.4.2.5.7.3 1.1z"/>
   </svg>
 );
+const Discord = () => (
+  <svg
+    className="icon"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M18 20a16 16 0 0 0 2-8 16 16 0 0 0-2-8 14 14 0 0 0-4-1l-.4.8a13 13 0 0 0-3.2 0l-.4-.8a14 14 0 0 0-4 1 16 16 0 0 0-2 8 16 16 0 0 0 2 8 14 14 0 0 0 4 1l.4-.8a13 13 0 0 0 3.2 0l.4.8a14 14 0 0 0 4-1z" />
+    <circle cx="9" cy="12" r="1" />
+    <circle cx="15" cy="12" r="1" />
+  </svg>
+);
 
 const XIcon = () => (
   <svg className="icon" viewBox="0 0 24 24" fill="currentColor">
@@ -283,7 +298,7 @@ export default function App() {
   >
     <GitHub />
   </a>
-
+     
   <a
     className="social"
     href="https://www.youtube.com/@TimeChronicles5"
@@ -327,8 +342,7 @@ export default function App() {
 
 
           <div className="links">
-            {/* PRIMARY LINKS – replace # with your real URLs */}
-            <a className="link" href="#">
+            <a className="link" href="https://devvelox.vercel.app/">
               <div className="link-left">
                 <div className="icon-box"><Globe /></div>
                 Website
@@ -353,7 +367,7 @@ export default function App() {
               </div>
             </a>
 
-            <a className="link" href="https://www.linkedin.com/in/suraj-sharma-74b160304/" target="_blank" 
+            <a className="link" href="https://www.linkedin.com/in/suraj-indoriya-aa2a343a2/" target="_blank" 
                 rel="noopener noreferrer"
                >
               <div className="link-left">
@@ -381,10 +395,10 @@ export default function App() {
               </div>
             </a>
 
-            <a className="link" href="#">
+            <a className="link" href="https://discord.com/invite/coupthings">
               <div className="link-left">
-                <div className="icon-box"><Globe /></div>
-                Blog
+                <div className="icon-box"><Discord /></div>
+                Discord
               </div>
             </a>
 
